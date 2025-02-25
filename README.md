@@ -10,6 +10,10 @@
 
 ## Installation
 
+Head over to the [Chrome Web Store](https://chromewebstore.google.com/detail/subsieve/kaajhikijnhbdllpdjigneldnajefofa) to install the extension.
+
+Alternatively, compile it yourself and load it as an unpacked extension.
+
 ## Usage
 
 -   Click the extension icon to open the options page.
