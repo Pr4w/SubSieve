@@ -20,6 +20,7 @@ export default {
 				"Fauxmoi",
 				"fednews",
 				"FluentInFinance",
+                "insanepeoplefacebook",
 				"LateStageCapitalism",
 				"law",
 				"LeopardsAteMyFace",
@@ -183,8 +184,7 @@ export default {
 				<div class="badge badge-soft badge-sm badge-success">{{ subreddits.length }}</div>
 			</h2>
 			<p>
-				A card component has a figure, a body part, and inside body there are title and
-				actions parts.
+				Add as many subreddits as you'd like in the input below, without the "/r/".
 			</p>
 			<div class="flex">
 				<form @submit.prevent="addSubreddit" class="w-full">

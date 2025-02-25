@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "SubSieve",
-    "version": "1.0",
+    "version": "1.1",
     "description": "Regain control of your /r/all feed",
     "permissions": ["storage"],
     "host_permissions": ["*://www.reddit.com/*"],
@@ -13,9 +13,13 @@
         }
     ],
     "action": {
-      "default_popup": "index.html"
+      "default_popup": "index.html",
+      "default_icon": "icon-48.png"
     },
     "icons": {
+        "16": "icon-16.png",
+        "32": "icon-32.png",
+        "48": "icon-48.png",
         "128": "icon-128.png"
     }
 }
