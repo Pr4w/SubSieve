@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "SubSieve",
+    "version": "1.0",
+    "description": "Regain control of your /r/all feed",
+    "permissions": ["storage"],
+    "host_permissions": ["*://www.reddit.com/*"],
+    "content_scripts": [
+        {
+            "matches": ["*://www.reddit.com/*"],
+            "js": ["content.js"],
+            "run_at": "document_idle"
+        }
+    ],
+    "action": {
+      "default_popup": "index.html"
+    }
+  }
+  
