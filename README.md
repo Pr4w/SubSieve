@@ -10,7 +10,7 @@
 
 ## Installation
 
-Head over to the [Chrome Web Store](https://chromewebstore.google.com/detail/subsieve/kaajhikijnhbdllpdjigneldnajefofa) to install the extension.
+Head over to the [Chrome Web Store](https://chromewebstore.google.com/detail/subsieve/kaajhikijnhbdllpdjigneldnajefofa) or the [Firefox Add-On Store](https://addons.mozilla.org/en-GB/firefox/addon/subsieve/) to install the extension.
 
 Alternatively, compile it yourself and load it as an unpacked extension.
 
