@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "SubSieve",
-    "version": "1.2",
+    "version": "1.3",
     "description": "Regain control of your /r/all feed",
     "permissions": ["storage"],
     "host_permissions": ["*://www.reddit.com/*"],
@@ -21,6 +21,12 @@
         "32": "icon-32.png",
         "48": "icon-48.png",
         "128": "icon-128.png"
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "12f631ce6786942d070645aa478ea40dd68c39b2@live.com",
+            "strict_min_version": "68.0"
+        }
     }
 }
   

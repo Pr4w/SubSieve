@@ -6,6 +6,15 @@ chrome.storage.sync.get(
 		keywordFilterEnabled: true,
 	},
 	(data) => {
+		// Firefox compatibility
+		// Ensure data is defined
+		data = data || {
+			blockedSubreddits: [],
+			subFilterEnabled: true,
+			blockedKeywords: [],
+			keywordFilterEnabled: true,
+		};
+
 		// Get data from storage
 		let blockedSubreddits = Object.values(data.blockedSubreddits).map((s) => s.toLowerCase());
 		let subFilterEnabled = data.subFilterEnabled;

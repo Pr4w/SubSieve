@@ -73,6 +73,16 @@ export default {
 				navigation: "home",
 			},
 			(data) => {
+				// Firefox compatibility
+				data = data || {
+					blockedSubreddits: [],
+					subFilterEnabled: true,
+					blockedKeywords: [],
+					keywordFilterEnabled: true,
+					navigation: "home",
+				};
+
+				// Save
 				this.subreddits = Object.values(data.blockedSubreddits);
 				this.subFilterEnabled = data.subFilterEnabled;
 				this.keywords = Object.values(data.blockedKeywords);
@@ -444,7 +454,11 @@ export default {
 </template>
 
 <style>
-html {
-	width: 600px;
+html,
+body {
+	width: 600px; /* Fixed width for the entire popup */
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 </style>
